@@ -13,7 +13,6 @@ namespace Miniproject1
             while (flag)
             {
                 Console.WriteLine("hello world");
-                Console.WriteLine("hi");
                 Console.WriteLine("1.Display all the complaints based on the year provided by the user\n" +
                 "2.Display all the complaints based on the name of the bank provided by the user\n" +
                 "3.Display complaints based on the complaint id provided by the user\n" +
