@@ -59,8 +59,24 @@ namespace Miniproject1
         [Name("Complaint ID")]
         public string ComplaintID { get; set; }
 
+        public static void Display(Complaint c)
+        {
+            Console.WriteLine("->" + c.DateReceived + "| "
+                       + c.Product + "| "
+                       + c.SubProduct + "| "
+                       + c.Issue + "| "
+                       + c.SubIssue + "| "
+                       + c.Company + "| "
+                       + c.State + "| "
+                       + c.ZipCode + "| "
+                       + c.SubmittedVia + "| "
+                       + c.DateSentToCompany + "| "
+                       + c.CompanyResponseToConsumer + "| "
+                       + c.TimelyResponse + "| "
+                       + c.ConsumerDisputed + "| "
+                       + c.ComplaintID);
+        }
 
-      
 
 
 
