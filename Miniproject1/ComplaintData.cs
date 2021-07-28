@@ -25,10 +25,6 @@ namespace Miniproject1
             }
         }
 
-       
-
-
-
         //Display all the complaints based on the year provided by the user
         public void DisplayComplaintsByYear(string year)
         {
@@ -37,20 +33,6 @@ namespace Miniproject1
 
                 if ((details.DateReceived.Split("/")[2]) == year )
                 {
-                    //    Console.WriteLine("->" + details.DateReceived + " "
-                    //        + details.Product + " "
-                    //        + details.SubProduct + " "
-                    //        + details.Issue + " "
-                    //        + details.SubIssue + " "
-                    //        + details.Company + " "
-                    //        + details.State + " "
-                    //        + details.ZipCode + " "
-                    //        + details.SubmittedVia + " "
-                    //        + details.DateSentToCompany + " "
-                    //        + details.CompanyResponseToConsumer + " "
-                    //        + details.TimelyResponse + " "
-                    //        + details.ConsumerDisputed + " "
-                    //        + details.ComplaintID);
 
                     Complaint.Display(details);
                 
@@ -68,21 +50,6 @@ namespace Miniproject1
 
                 if ((details.Company) == bankName)
                 {
-                  
-                    //Console.WriteLine("->"+details.DateReceived + " "
-                    //    + details.Product + " "
-                    //    + details.SubProduct + " "
-                    //    + details.Issue + " "
-                    //    + details.SubIssue + " "
-                    //    + details.Company + " "
-                    //    + details.State + " "
-                    //    + details.ZipCode + " "
-                    //    + details.SubmittedVia + " "
-                    //    + details.DateSentToCompany + " "
-                    //    + details.CompanyResponseToConsumer + " "
-                    //    + details.TimelyResponse + " "
-                    //    + details.ConsumerDisputed + " "
-                    //    + details.ComplaintID);
                     Complaint.Display(details);
                 }
 
@@ -99,57 +66,11 @@ namespace Miniproject1
 
                 if ((details.ComplaintID) == complaintID)
                 {
-                    //Console.WriteLine("->" + details.DateReceived + " "
-                    //    + details.Product + " "
-                    //    + details.SubProduct + " "
-                    //    + details.Issue + " "
-                    //    + details.SubIssue + " "
-                    //    + details.Company + " "
-                    //    + details.State + " "
-                    //    + details.ZipCode + " "
-                    //    + details.SubmittedVia + " "
-                    //    + details.DateSentToCompany + " "
-                    //    + details.CompanyResponseToConsumer + " "
-                    //    + details.TimelyResponse + " "
-                    //    + details.ConsumerDisputed + " "
-                    //    + details.ComplaintID);
                     Complaint.Display(details);
                 }
 
             }
         }
-
-
-        //Display number of days took by the Bank to close the complaint
-        //public void DisplayComplaintsByDaysForClosure()
-        //{
-        //    Console.WriteLine("Enter the Complaint ID:");
-        //    string cpId = Console.ReadLine();
-            
-        //    foreach (Complaint details in data)
-        //    {
-
-        //        if (((DateTime.Parse(details.DateSentToCompany) - DateTime.Parse(details.DateReceived)).Days) == cpId)
-        //        {
-        //            Console.WriteLine(details.DateReceived + " "
-        //                + details.Product + " "
-        //                + details.SubProduct + " "
-        //                + details.Issue + " "
-        //                + details.SubIssue + " "
-        //                + details.Company + " "
-        //                + details.State + " "
-        //                + details.ZipCode + " "
-        //                + details.SubmittedVia + " "
-        //                + details.DateSentToCompany + " "
-        //                + details.CompanyResponseToConsumer + " "
-        //                + details.TimelyResponse + " "
-        //                + details.ConsumerDisputed + " "
-        //                + details.ComplaintID);
-
-        //        }
-
-        //    }
-        //}
 
 
         //Display number of days took by the Bank to close the complaint
@@ -180,20 +101,7 @@ namespace Miniproject1
 
                 if ((details.CompanyResponseToConsumer) == "Closed" || (details.CompanyResponseToConsumer) == "Closed with explanation")
                 {
-                    //Console.WriteLine("->" + details.DateReceived + "| "
-                    //    + details.Product + "| "
-                    //    + details.SubProduct + "| "
-                    //    + details.Issue + "| "
-                    //    + details.SubIssue + "| "
-                    //    + details.Company + "| "
-                    //    + details.State + "| "
-                    //    + details.ZipCode + "| "
-                    //    + details.SubmittedVia + "| "
-                    //    + details.DateSentToCompany + "| "
-                    //    + details.CompanyResponseToConsumer + "| "
-                    //    + details.TimelyResponse + "| "
-                    //    + details.ConsumerDisputed + "| "
-                    //    + details.ComplaintID);
+
                     Complaint.Display(details);
                 }
 
@@ -209,21 +117,7 @@ namespace Miniproject1
             {
 
                 if ((details.TimelyResponse) == "Yes")
-                {
-                    //Console.WriteLine("->" + details.DateReceived + " "
-                    //    + details.Product + " "
-                    //    + details.SubProduct + " "
-                    //    + details.Issue + " "
-                    //    + details.SubIssue + " "
-                    //    + details.Company + " "
-                    //    + details.State + " "
-                    //    + details.ZipCode + " "
-                    //    + details.SubmittedVia + " "
-                    //    + details.DateSentToCompany + " "
-                    //    + details.CompanyResponseToConsumer + " "
-                    //    + details.TimelyResponse + " "
-                    //    + details.ConsumerDisputed + " "
-                    //    + details.ComplaintID);
+                {   
                     Complaint.Display(details);
 
                 }
