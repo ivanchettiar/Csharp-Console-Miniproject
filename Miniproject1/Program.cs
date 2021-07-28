@@ -12,7 +12,7 @@ namespace Miniproject1
             AllComplaints user = new AllComplaints();
             while (flag)
             {
-                Console.WriteLine("hello");
+                Console.WriteLine("hello world");
                 Console.WriteLine("hi");
                 Console.WriteLine("1.Display all the complaints based on the year provided by the user\n" +
                 "2.Display all the complaints based on the name of the bank provided by the user\n" +
