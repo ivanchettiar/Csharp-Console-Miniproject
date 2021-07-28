@@ -15,7 +15,7 @@ namespace Miniproject1
         //Date received, Product, Sub-product,Issue,Sub-issue,Company,State,ZIP code, Submitted via,
         //Date sent to company, Company response to consumer,Timely response?, Consumer disputed?,Complaint ID
             
-        
+        [Name("Date received")]
         public string DateReceived { get; set; }
         
         [Name("Product")]

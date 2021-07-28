@@ -53,6 +53,7 @@ namespace Miniproject1
                     //        + details.ComplaintID);
 
                     Complaint.Display(details);
+                
                 }
                 
             }
